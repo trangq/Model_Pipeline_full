@@ -1,0 +1,12 @@
+SEED : 42
+
+TARGET : 'survived'
+## Features to keep
+FEATURES  : ['pclass', 'sex', 'age', 'sibsp', 'parch', 'fare', 'embarked', 'class',
+       'who', 'adult_male', 'deck', 'embark_town', 'alive', 'alone'] #Final feature to keep in data
+
+NUMERICAL_FEATURES : ['pclass', 'age', 'sibsp', 'parch', 'fare'] #Numerical
+
+CATEGORICAL_FEATURES : ['adult_male', 'alive', 'alone', 'class', 'deck', 'embark_town', 'embarked', 'sex', 'who'] #Categorical
+
+FEATURES_TO_ENCODE : ['adult_male', 'alive', 'alone', 'class', 'deck', 'embark_town', 'embarked', 'sex', 'who']
